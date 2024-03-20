@@ -1,0 +1,31 @@
+.ttl{
+    padding: 10rem 0 8rem; 
+    text-align: center;
+}
+.contentWrap{
+    display: flex;
+    gap: 4rem;
+    padding: 0 5rem;
+}
+.contentWrap img{
+    width: 50%;
+    border-radius: 10px;
+}
+.content h2{
+    padding-bottom: 1.2rem;
+    font-size: 3rem;
+}
+.content h3{
+    font-size: 1.4rem;
+}
+.moreWrap{
+    display: flex;
+    padding-top: 2rem;
+}
+.moreWrap li{
+    list-style: none;
+    line-height: 2.4rem;
+}
+.moreWrap li:last-child{
+    padding-left: 2rem;
+}

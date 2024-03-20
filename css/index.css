@@ -1,0 +1,89 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100%;
+    color: #fff;
+    font-family: "A P-OTF Bunkyu MidasiM Std";
+    background: url(../img/bg.svg),linear-gradient(180deg, #7084A5 0%, #ABA6BE 57%, #D4B0B5 100%); 
+    background-position: center top;
+    background-size: cover;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 6rem 0 14rem;
+}
+.top img{
+    width: 35%;
+}
+.topTtl p{
+    font-size: 2rem;
+}
+.topTtl h1{
+    font-size: 20rem;
+    line-height: 25rem;
+    background: linear-gradient(180deg, #051637 0%, #1C2C52 46.5%, #5C658B 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.contentTtl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+.fa-backward{
+    font-size: 2.2rem;
+    rotate: 180deg;
+}
+.contentTtl h2{
+    margin: 4rem 0;
+    font-size: 2.5rem;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+    padding: 4rem;
+    background: rgba(255, 255, 255, 0.39);
+    img{
+        width: 20%;
+        margin-right: 4rem;
+        border-radius: 500px;
+    }
+    table{
+        border-radius: 10px;
+        text-align: left;
+        font-size: 1.4rem;
+    }
+    th{
+        padding-right: 3rem;
+    }
+}
+.workWrap{
+    text-align: center;
+}
+.workWrap a{
+    margin: 2.5rem;
+}
+.workWrap img{
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 2rem; 
+    flex-wrap: wrap; 
+}
+.contact{
+    text-align: center;
+    address{
+        font-size: 1.4rem;
+    }
+}
+.contactImg img{
+    width: 7%;
+    padding: 2.5rem;
+}
