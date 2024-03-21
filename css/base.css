@@ -7,7 +7,7 @@ body{
     height: 100%;
     color: #fff;
     font-family: "A P-OTF Bunkyu MidasiM Std";
-    background: url(../img/bg.svg),linear-gradient(180deg, #7084A5 0%, #ABA6BE 57%, #D4B0B5 100%) no-repeat; 
-    background-position: center top;
+    background: url(../img/bg.svg),linear-gradient(180deg, #7084A5 0%, #ABA6BE 57%, #D4B0B5 100%); 
+    /* background-position: center top; */
     background-size: cover;
 }

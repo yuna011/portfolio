@@ -15,15 +15,28 @@ body{
     align-items: flex-start;
     padding: 6rem 0 14rem;
 }
-.top img{
+.moon{
     width: 35%;
+    animation: float 5s infinite;
 }
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-1rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
 .topTtl p{
     font-size: 2rem;
 }
 .topTtl h1{
-    font-size: 20rem;
-    line-height: 25rem;
+    font-size: 30rem;
+    line-height: 32rem;
     background: linear-gradient(180deg, #051637 0%, #1C2C52 46.5%, #5C658B 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -34,13 +47,13 @@ body{
     align-items: center;
     justify-content: center;
     gap: 1.4rem;
+    padding: 20rem 0 5rem;
 }
 .fa-backward{
     font-size: 2.2rem;
     rotate: 180deg;
 }
 .contentTtl h2{
-    margin: 4rem 0;
     font-size: 2.5rem;
 }
 
@@ -65,25 +78,38 @@ body{
     }
 }
 .workWrap{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding: 0 10rem;
+    flex-wrap: wrap;
 }
 .workWrap a{
-    margin: 2.5rem;
+    width: 25rem;
+}
+.workWrap a:hover{
+    transform: scale(1.1);
+    transition: all 0.8s ease-in-out;
+    opacity: 0.8;
 }
 .workWrap img{
-    width: 20%;
     border-radius: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    gap: 2rem; 
-    flex-wrap: wrap; 
 }
 .contact{
     text-align: center;
+    padding-bottom: 10rem;
     address{
         font-size: 1.4rem;
     }
 }
-.contactImg img{
-    width: 7%;
-    padding: 2.5rem;
+.contactLink{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 2rem;
+}
+.fa-github,.fa-instagram{
+    color: #fff;
+    font-size: 6rem;
 }
