@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding:  4rem 4rem 2rem 4rem;
+    color: #60E2FF;
+    background-image: url(../img/maru.svg);
+    background-position: 4rem 2rem;
+}
+.menu h1{
+    font-size: 2.8rem;
+    padding: 2rem 3.2rem;
+}
+.small{
+    font-size: 1.4rem;
+}
+.menuIcon{
+    display: flex;
+    gap: 5rem;
+}
+.menuIcon i{
+    color: #fff;
+    font-size: 5rem;
+}

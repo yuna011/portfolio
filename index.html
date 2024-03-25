@@ -6,82 +6,82 @@
     <title>portfolio</title>
     
     <link rel="stylesheet" href="css/ress.css">
-    <!-- <link rel="stylesheet" href="css/base.css"> -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
 
 </head>
 <body>
-    <main>
+    <div class="menu">
+        <h1>26<span class="small">卒</span></h1>
+        <div class="menuIcon">
+            <button><i class="fa-regular fa-envelope"></i></button>
+            <button><i class="fa-regular fa-user"></i></button>
+            <button><i class="fa-solid fa-gears"></i></button>
+        </div>
+    </div>
 
-        <div class="top">
-            <div class="topTtl">
-                <p>もりお ゆうなの</p>
-                <h1>Port<br>Folio</h1>
-            </div>
-            <img class="moon" src="img/tuki.svg" alt="月">
-        </div>
-        
-        <div class="contentTtl">
-            <h2 class="aboutTtl">About Me</h2>
-            <i class="fa-solid fa-backward"></i>
-        </div>
-        <div class="about">
-            <img src="img/img.png" alt="">
-            <table>
-                <tr>
-                    <th></th>
-                    <td>ECCコンピュータ専門学校/Webデザインコース/26年卒</td>
-                </tr>
-                <tr>
-                    <th>Name</th>
-                    <td>森尾　優菜</td>
-                </tr>
-                <tr>
-                    <th>Birthday</th>
-                    <td>2004/11/10</td>
-                </tr>
-                <tr>
-                    <th>Like</th>
-                    <td>game/ボカロ/動画制作</td>
-                </tr>
-                <tr>
-                    <th>Goals</th>            
-                    <td>フロントエンドもバックエンドもできるように頑張ります</td>
-                </tr>
-            </table>
-        </div>
-        
-        <div class="contentTtl">
-            <h2 class="work">Work</h2>
-            <i class="fa-solid fa-backward"></i>
+    <div class="contentWrap">
+        <div class="left">
+            <section class="subWrap">
+                <a href="design.html"><h2 class="sub">design</h2></a>
+                <a href="movie.html"><h2 class="sub">movie</h2></a>
+            </section>
+            
+            <section class="serifWrap">
+                <h3 class="name">森尾　優菜</h3>
+                <p class="serif">私のポートフォリオに来てくださりありがとうございます</p>
+            </section>
         </div>
 
-        <div class="workWrap">
-            <a href="no-name.html"><img src="img/work/no-name.svg" alt=""></a>
-            <a href="CwC.html" class="sliss"><img src="img/work/CwC.svg" alt=""></a>
-            <a href="sumeru-to.html"><img src="img/work/sumeru-to.svg" alt=""></a>
-            <a href="odd.html"><img src="img/work/oddballtalk.svg" alt=""></a>
-            <a href="video.html"><img src="img/work/movie.svg" alt=""></a>
-            <a href="design.html"><img src="img/work/design.svg" alt=""></a>
-        </div>
-
-
-        <section class="contentTtl">
-            <h2>Contact</h2>
-            <i class="fa-solid fa-backward"></i>
+        <section class="work">
+            <a href="workTeam.html"><h2 class="workTeam">work_team</h2></a>
+            <a href="workSolo.html"><h2 class="workSolo">work_solo</h2></a>
         </section>
+        
+    </div>
 
-        <div class="contact">
-            <address>morio.yuna01@gmail.com</address>
-            <div class="contactLink">
-                <a href="https://github.com/yuna011"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/y_na041/"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+    <div class="contactWrap modal">
+        <h1>Contact</h1>
+        <p>morio.yuna01@gmail.com</p>
+        <div>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
         </div>
+    </div>
 
-    </main>
-
+    <div class="pWrap">
+        <div class="profileWrap modal">
+            <img src="img/pic.svg" alt="" class="">
+            <section class="profile">
+                <h1>ECCコンピュータ専門学校/Webデザインコース/26年卒</h1>
+                <h2>森尾　優菜<span class="pro">Webエンジニア志望</span></h2>
+                <ul class="more">
+                    <li>
+                        <p>Birthday</p>
+                        <p>Like</p>
+                        <p>Goals</p>
+                    </li>
+                    <li>
+                        <p>2004/11/10</p>
+                        <p>ゲーム/ボカロ</p>
+                        <p>フロントエンドもバックエンドもどちらもできるように頑張っていきたいです</p>
+                    </li>
+                </ul>
+                <section class="skill">
+                    <h3>skill</h3>
+                    <section class="app">
+                        <img src="img/adobe/ai.svg" alt="">
+                        <img src="img/adobe/ps.svg" alt="">
+                        <img src="img/adobe/pr.svg" alt="">
+                        <img src="img/adobe/ae.svg" alt="">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </section>
+                </section>
+            </section>
+        </div>
+    </div>
     <script src="js/index.js"></script>
 </body>
 </html>
