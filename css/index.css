@@ -1,58 +1,49 @@
 html{
-    font-size: 62.5%;
     width: 100%;
     height: 100%;
+    font-size: 62.5%;
 }
 body{
+    padding: 2rem;
+    font-family: "A P-OTF SuiryuAtlas StdN";
     background-image: url(../img/bg/home.svg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "A P-OTF SuiryuAtlas StdN";
-    padding: 2rem;
 }
-.contentWrap{
+
+.workWrap{
     display: flex;
     justify-content: space-between;
-}
-.workSolo,.workTeam{
-    width: 30rem;
-    height: 26rem;
-    text-align: center;
-    line-height: 18rem;
-    clip-path: polygon(0 7%, 100% 0%, 100% 75%, 50% 76%, 41% 85%, 32% 75%, 0 74%);
-    font-size: 2.8rem;
-    background: #E1E1E1A6;
-}
-.workTeam{
-    margin-right: 12rem;
-    transform: rotate(-1deg);
-}
-.workSolo{
-    transform: rotate(-2deg);
-    /* margin-right: 23rem; */
-}
-.subWrap{
-    padding: 6rem 0 0 6rem;
-}
-.sub{
-    margin-bottom: 4rem;
-    padding: 1rem 6rem;
-    font-size: 2.4rem;
-    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
-    border: 3px solid #fff;
-    background-color: #E1E1E1A6;
-    width: fit-content;
+    padding-top: 5rem;
 }
 
 .left{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 12rem;
+    /* gap: 12rem; */
 }
+
+.subWrap{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 0 0 6rem;
+}
+.sub{
+    width: fit-content;
+    margin-bottom: 4rem;
+    padding: 1rem 6rem;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+    font-size: 2.6rem;
+    color: #2e2e2e;
+    text-decoration: none;
+    border: 3px solid #fff;
+    background-color: #E1E1E1A6;
+}
+
 .serifWrap{
-    padding-left: 14rem;
+    position: sticky;
+    padding: 12rem 0 0 16rem;
 }
 .name,.serif{
     background: #4FF4FF99;
@@ -68,67 +59,36 @@ body{
     font-family: "A P-OTF Shuei NGo Kin StdN";
 } 
 
-.modal{
-    width: 100rem;
-    height: 60rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 2rem;
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right: 14rem;
 }
-.contactWrap{
-    display: none;
+.main a{
+    text-decoration: none;
+}
+.workSolo,.workTeam{
+    width: 30rem;
+    height: 26rem;
     text-align: center;
-    background-color: #FB4FFFCC;
+    line-height: 20rem;
+    color: #2e2e2e;
+    font-size: 2.8rem;
+    background: #E1E1E1A6;
 }
-.contactWrap i{
-    font-size: 5rem;
+.workTeam{
+    clip-path: polygon(0 0%, 100% 0%, 100% 70%, 50% 75%, 41% 85%, 35% 76%, 0 80%);
+    transform: perspective(100px) rotateY(-5deg);
+    
 }
-.pWrap{
-    display: none;
+.workSolo{
+    clip-path: polygon(0 0%, 100% 0%, 100% 75%, 50% 76%, 41% 85%, 32% 75%, 0 74%);
+    position: absolute;
+    top: 48%;
+    right: 70%;
+    transform: perspective(100px) rotateY(-5deg);
 }
-.profileWrap{
-    padding: 4rem;
-    display: flex;
-    align-items: center;
-    border-top: 8rem solid #4FF4FF99;
-    border-radius: 2.5rem;
-    color: #fff;
-    font-family: "A P-OTF Shuei NijimiMin Std";
-    background: rgba(0, 0, 0, 0.90);
-}
-.profileWrap img{
-    width: 25%;
-}
-.profile{
-    padding-left: 4rem;
-    font-size: 1.6rem;
-}
-.pro{
-    padding-left: 2rem;
-    font-size: 1.6rem;
-}
-.more{
-    padding-top: 2rem;
-    display: flex;
-    gap: 4.5rem;
-    list-style: none;
-    line-height: 4rem;
-}
-.skill{
-    display: flex;
-    gap: 7rem;
-}
-.app{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-.app img{
-    width: 10%;
-}
-.app i{
-    font-size: 4.2rem;
-    color: #60E2FF;
-}
+
+
+

@@ -21,3 +21,77 @@
     color: #fff;
     font-size: 5rem;
 }
+
+.modal{
+    display: none;
+    width: 100rem;
+    height: 60rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.fa-xmark{
+    position: absolute;
+    top: -10%;
+    right: 2%;
+    color: #fff;
+    font-size: 4rem;
+}
+.contactWrap{
+    line-height: 8rem;
+    text-align: center;
+    background-color: #FB4FFFCC;
+}
+.contactWrap i{
+    font-size: 5rem;
+}
+.pWrap{
+    display: none;
+}
+
+.profileWrap{
+    display: none;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    border-top: 8rem solid #4FF4FF99;
+    border-radius: 2.5rem;
+    color: #fff;
+    font-family: "A P-OTF Shuei NijimiMin Std";
+    background: rgba(0, 0, 0, 0.90);
+}
+.profileWrap img{
+    width: 25%;
+}
+.profile{
+    padding-left: 4rem;
+    font-size: 1.6rem;
+}
+.pro{
+    padding-left: 2rem;
+    font-size: 1.6rem;
+}
+.more{
+    padding-top: 2rem;
+    display: flex;
+    gap: 4.5rem;
+    list-style: none;
+    line-height: 4rem;
+}
+.skill{
+    display: flex;
+    gap: 7rem;
+}
+.app{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.app img{
+    width: 10%;
+}
+.app i{
+    font-size: 4.2rem;
+    color: #60E2FF;
+}

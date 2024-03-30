@@ -10,12 +10,27 @@ body{
     background-size: cover;
     font-family: "A P-OTF SuiryuAtlas StdN";
     padding: 2rem;
+    color: #fff;
 }
 .contentWrapper{
     display: flex;
+    padding-top: 10rem;
 }
 .contentTtl{
-    width: 20rem;
+    padding:6rem 0 0 7rem;
+    font-size: 1.8rem;
+    position: relative;
+}
+.contentTtl h1{
+    text-wrap: nowrap;
+    padding-bottom: 4rem;
+}
+
+.contentTtl h1::after{
+    content: url(../img/bar.svg);
+    position: absolute;
+    left: 10%;
+    margin-top: 2rem;
 }
 .contentWrap{
     display: flex;
@@ -43,4 +58,9 @@ body{
 }
 .moreWrap li:last-child{
     padding-left: 2rem;
+}
+
+.link{
+    color: #fff;
+    text-decoration: none;
 }
