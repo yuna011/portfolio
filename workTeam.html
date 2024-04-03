@@ -22,20 +22,21 @@
         </div>
 
         <div class="contentWrapper">
-            <section class="contentTtl">
-                <button><h1>すめる〜と</h1></button>
-                <button><h1>ODDBALLTALK</h1></button>
-            </section>
-            <div class="contentWrap first">
+
+            <div class="contentTab">
+                <h2 class="btn isActive" data-tab="01">すめる〜と</h2>
+                <h2 class="btn" data-tab="02">ODDBALLTALK</h2>
+            </div>
+
+            <div class="contentWrap first isShow" data-panel="01">
                 <img src="img/work/sumeru-to.svg" alt="">
                 <section class="content">
                     <h2>すめる〜と</h2>
-                    <p>現実から離れてリラックスできる隠れ家をコンセプトに作りました。
-                        ネット社会から離れて自然に囲まれながら息抜きできる場所があればいいなと思いこのコンセプトにしました。
-                        そのため入口で電子機器を預かり、店内ではコーヒーを飲みながらぼーっとしたり、本を読んだりなど店内では
-                        ネットから離れてゆっくりと自分の時間を過ごせるカフェを企画し制作しました。
+                    <p class="mainText">電車内でのスメハラを事前に回避！？<br>
+                        すめる〜とは今から自分が乗る電車の車内がどんなにおいかリアルタイムで確認できるので
+                        事前に自分のニガテなにおいのする車両を避けて乗ることができます
                     </p>
-                    <ul class="moreWrap">
+                    <ul class="detail">
                         <li >
                             <p>制作期間</p>
                             <p>作品種別</p>
@@ -47,11 +48,42 @@
                             <p>figma/Illustrator/Next.js/</p>
                         </li>
                     </ul>
-                    <a href="" class="link">アプリへへ</a>
-                    <a href="" class="link">LPへ</a>
+                    <a href="" class="detailLink">アプリへ</a>
+                    <a href="" class="detailLink">LPへ</a>
+                    <p class="detailText">主にLP、動画の制作を担当。<br>Next.jsを初めて使ったので大変でした。</p>
+                </section>
+            </div>
+
+            <div class="contentWrap second" data-panel="02">
+                <img src="img/work/sumeru-to.svg" alt="">
+                <section class="content">
+                    <h2>ODDBALLTALK</h2>
+                    <p class="mainText">変わった趣味を誰かと語り合いませんか？<br/>
+                        ”出会う”ことではなく、”語り合う”ことが目的のマッチングアプリ
+                        気になったカードがあればワンクリックで会話を始められ、会話の履歴も残らないため、
+                        その場で気軽に同じ趣味を持った人と趣味について語り合うことができます
+                    </p>
+                    <ul class="detail">
+                        <li >
+                            <p>制作期間</p>
+                            <p>作品種別</p>
+                            <p>使用ツール</p>
+                        </li>
+                        <li>
+                            <p>３日</p>
+                            <p>1年生/チーム制作</p>
+                            <p>figma/Illustrator/Next.js/</p>
+                        </li>
+                    </ul>
+                    <a href="" class="detailLink">アプリへ</a>
+                    <p class="detailText">主にデザインを担当。<br>
+                        3日間という短い時間での制作のため何を作るのか、どこに重きを置くのかの取捨選択が難しかったです。ですが、比較的早めに企画が纏り、
+                        制作に取り掛かることができたのでアプリを完成させることができてよかったです。
+                        企画は詰めが甘いところがありましたが、自分の担当したデザインの部分は褒められて嬉しかったです。</p>
                 </section>
             </div>
         </div>
+
 
         <div class="contactWrap modal">
             <button><i class="fa-solid fa-xmark"></i></button>
@@ -96,6 +128,8 @@
             </div>
         </div>
     
+        <script src="js/work.js"></script>
         <script src="js/index.js"></script>
+
     </body>
 </html>

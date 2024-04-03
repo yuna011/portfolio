@@ -2,6 +2,7 @@ html{
     font-size: 62.5%;
     width: 100%;
     height: 100%;
+
 }
 body{
     background-image: url(../img/bg/home.svg);
@@ -10,32 +11,50 @@ body{
     background-size: cover;
     font-family: "A P-OTF SuiryuAtlas StdN";
     padding: 2rem;
-    color: #fff;
+    color: #333;
+    overflow: hidden;
 }
 .contentWrapper{
     display: flex;
-    padding-top: 10rem;
+    gap: 8rem;
+    height: 100vh;
 }
-.contentTtl{
-    padding:6rem 0 0 7rem;
+.contentTab{
+    padding:12rem 0 0 7rem;
     font-size: 1.8rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
-.contentTtl h1{
+.btn {
     text-wrap: nowrap;
     padding-bottom: 4rem;
+    font-size: 2rem;
 }
-
-.contentTtl h1::after{
+.btn::after{
     content: url(../img/bar.svg);
     position: absolute;
     left: 10%;
     margin-top: 2rem;
 }
 .contentWrap{
+    width: 70%;
+    height: 100%;
     display: flex;
+    align-items: flex-start;
     gap: 4rem;
-    padding: 0 5rem;
+    padding: 14rem 5rem;
+    background-image: url(../img/bg/box.png);
+    background-size: 100%;
+}
+.first{
+    display: none;
+}
+.second{
+    display: none;
+}
+.contentWrap.isShow{
+    display: block;
 }
 .contentWrap img{
     width: 30%;
@@ -45,22 +64,28 @@ body{
     padding-bottom: 1.2rem;
     font-size: 3rem;
 }
-.content h3{
+.mainText{
     font-size: 1.4rem;
+    /* width: 80%; */
 }
-.moreWrap{
+.detail{
     display: flex;
     padding-top: 2rem;
 }
-.moreWrap li{
+.detail li{
     list-style: none;
     line-height: 2.4rem;
 }
-.moreWrap li:last-child{
+.detail li:last-child{
     padding-left: 2rem;
 }
-
-.link{
-    color: #fff;
+.detailLink{
+    margin-right: 2rem;
+    color: #333;
     text-decoration: none;
+    font-size: 1.6rem;
+}
+.detailText{
+    flex-direction: column;
+    padding-top: 2rem;
 }
