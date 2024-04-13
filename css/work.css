@@ -1,0 +1,38 @@
+.workImg{
+    width: 28%;
+    border-radius: 10px;
+    padding: 10rem 4rem 0 2rem;
+}
+.content{
+    padding-top: 4rem;
+}
+.content h2{
+    padding-bottom: 1.2rem;
+    font-size: 3rem;
+}
+.mainText{
+    font-size: 1.4rem;
+    width: 90%;
+}
+.detail{
+    display: flex;
+    padding-top: 2rem;
+}
+.detail li{
+    list-style: none;
+    line-height: 2.4rem;
+}
+.detail li:last-child{
+    padding-left: 2rem;
+}
+.detailLink{
+    margin-right: 2rem;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.detailText{
+    flex-direction: column;
+    padding-top: 2rem;
+    width: 90%;
+}

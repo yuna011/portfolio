@@ -3,54 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio_チーム制作</title>
+    <title>portfolio_個人制作</title>
     
     <link rel="stylesheet" href="css/ress.css">
-    <link rel="stylesheet" href="css/workTeam.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/work.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
 
 </head>
     <body>
-        <div class="menu">
-            <h1>26<span class="small">卒</span></h1>
-            <div class="menuIcon">
+        <div class="menuWrap">
+            <div class="menu">
+                <h1>26<span class="small">卒</span></h1>
+                <h2>Solo</h2>
+            </div>
+                <div class="menuIcon">
                 <button><i class="fa-regular fa-envelope"></i></button>
                 <button><i class="fa-regular fa-user"></i></button>
                 <button><i class="fa-solid fa-gears"></i></button>
             </div>
         </div>
 
-        <div class="contentWrapper">
-            <section class="contentTtl">
-                <button><h1>「no-name」</h1></button>
-                <button><h1>CwC</h1></button>
-            </section>
-            <div class="contentWrap first">
-                <img src="img/work/no-name.svg" alt="">
-                <section class="content">
-                    <h2>「no-nama」</h2>
-                    <p>現実から離れてリラックスできる隠れ家をコンセプトに作りました。
-                        ネット社会から離れて自然に囲まれながら息抜きできる場所があればいいなと思いこのコンセプトにしました。
-                        そのため入口で電子機器を預かり、店内ではコーヒーを飲みながらぼーっとしたり、本を読んだりなど店内では
-                        ネットから離れてゆっくりと自分の時間を過ごせるカフェを企画し制作しました。
-                    </p>
-                    <ul class="moreWrap">
-                        <li >
-                            <p>制作期間</p>
-                            <p>作品種別</p>
-                            <p>使用ツール</p>
-                        </li>
-                        <li>
-                            <p>３ヶ月</p>
-                            <p>1年生/個人制作</p>
-                            <p>XD/Illustrator/Photoshop/HTML/css</p>
-                        </li>
-                    </ul>
-                    <a href="" class="link">サイトへ</a>
-                </section>
+            <div class="tabBox">
+                    <input type="radio" name="tabset" id="tabCheck1" checked><label for="tabCheck1" class="tab">no-name</label>
+                    <input type="radio" name="tabset" id="tabCheck2"        ><label for="tabCheck2" class="tab">Connect with Cthulhu</label>
+                    <div class="tabContent" id="tabContent1">
+                        <div class="tabFlex">
+                            <img src="img/work/no-name.svg" alt="" class="workImg">
+                            <section class="content">
+                                <h2>「no-name」</h2>
+                                <p class="mainText">現実(ネット)から離れて自然に囲まれながらリラックスできる隠れ家をコンセプトに作りました。
+                                    入口で電子機器を預かり、店内ではコーヒーを飲みながらぼーっとしたり、本を読んだりなど店内では
+                                    ネットから離れてゆっくりと自分の時間を過ごせるカフェです。
+                                    隠れ家なので、たくさんの人よりも知っている人だけが来てもらえるように会員制になっています
+                                </p>
+                                <ul class="detail">
+                                    <li >
+                                        <p>制作期間</p>
+                                        <p>作品種別</p>
+                                        <p>使用ツール</p>
+                                    </li>
+                                    <li>
+                                        <p>3ヶ月</p>
+                                        <p>1年生/個人制作</p>
+                                        <p>XD/Illustrator/Photoshop/HTML/CSS/</p>
+                                    </li>
+                                </ul>
+                                <a href="" class="detailLink">アプリへ</a>
+                                <p class="detailText">初めての1人で企画からサイト作成をして、大変だった。企画も何度も練り直してロゴもなかなか納得いくのができないし
+                                    サイトもうまくできないけど、全部できた時の達成感はすごかったです。
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+
+                <div class="tabContent" id="tabContent2">
+                    <div class="tabFlex">
+                        <img src="img/work/CwC.svg" alt="" class="workImg">
+                        <section class="content">
+                            <h2>Connect with Cthulhu</h2>
+                            <p class="mainText">一緒にクトゥルフ神話TRPGをプレイする仲間を見つけませんか？<br/>
+                                アプリ内でセッションの募集や参加ができ、アプリ内でキャラクターシートの確認や
+                                細かいルールなどの確認、日程調節などができるので簡単にクトゥルフ神話TRPGをプレイすることができます。
+                                また、プロフィールでそのプレイヤーがどんなプレイスタイルが好きか簡単に確認もでき、相性のいいプレイヤーを見つけることもできます
+                            </p>
+                            <ul class="detail">
+                                <li >
+                                    <p>制作期間</p>
+                                    <p>作品種別</p>
+                                    <p>使用ツール</p>
+                                </li>
+                                <li>
+                                    <p>3ヶ月</p>
+                                    <p>1年生/個人制作</p>
+                                    <p>figma/Illustrator/HTML/CSS/PHP</p>
+                                </li>
+                            </ul>
+                            <a href="" class="detailLink">アプリへ</a>
+                            <p class="detailText">
+                                今回ルーム作成の部分でPHPを使ったみたけれど、めちゃくちゃ難しかったです。時間も足りず、一部エラーが出たまま展示会に出展することになってしまったのが
+                                嫌だった。デザインでもプログラムでも前期の制作よりも進化はできたと思う。
+                            </section>
+                    </div>
+                </div>
             </div>
-        </div>
 
         <div class="contactWrap modal">
             <button><i class="fa-solid fa-xmark"></i></button>
@@ -96,5 +133,6 @@
         </div>
     
         <script src="js/index.js"></script>
+
     </body>
 </html>

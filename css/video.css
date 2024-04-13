@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "A P-OTF SuiryuAtlas StdN";
-    padding: 2rem;
+    padding: 0 2rem 0;
 }
 
 .videoWrap{
