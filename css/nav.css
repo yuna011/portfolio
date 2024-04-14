@@ -60,17 +60,17 @@
 
 .profileWrap{
     display: none;
-    padding: 4rem;
+    height: 100vh;
+    padding: 16rem 4rem 0;
     display: flex;
-    align-items: center;
-    border-top: 8rem solid #4FF4FF99;
+    align-items: flex-start;
     border-radius: 2.5rem;
     color: #fff;
     font-family: "A P-OTF Shuei NijimiMin Std";
-    background: rgba(0, 0, 0, 0.90);
+    background-image: url(../img/card.png);
 }
 .profileWrap img{
-    width: 25%;
+    width: 30%;
 }
 .profile{
     padding-left: 4rem;
