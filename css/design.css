@@ -1,0 +1,11 @@
+.tabFlex{
+    padding: 10rem 4rem;
+    justify-content: center;
+    align-items: start;
+}
+.meisi{
+    width: 28%;
+}
+.detail{
+    padding-left: 2rem;
+}

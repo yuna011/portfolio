@@ -49,3 +49,4 @@ input:checked + .tab {
 
 #tabCheck1:checked ~ #tabContent1 { display: block; }
 #tabCheck2:checked ~ #tabContent2 { display: block; }
+#tabCheck3:checked ~ #tabContent3 { display: block; }
