@@ -1,6 +1,6 @@
 .tabFlex{
     padding: 10rem 4rem;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: start;
 }
 .meisi{
@@ -8,4 +8,7 @@
 }
 .detail{
     padding-left: 2rem;
+}
+.candle{
+    width: 28%;
 }

@@ -33,7 +33,7 @@
 .modal{
     display: none;
     width: 100rem;
-    height: 60rem;
+    height: 55rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,18 +41,37 @@
 }
 .fa-xmark{
     position: absolute;
-    top: -10%;
+    top: 4%;
     right: 2%;
     color: #fff;
     font-size: 4rem;
 }
 .contactWrap{
-    line-height: 8rem;
-    text-align: center;
+    padding: 5rem 2rem 0 2rem;
+    color: #fff;
     background-color: #FB4FFFCC;
 }
-.contactWrap i{
-    font-size: 5rem;
+.contactTtl{
+    border-bottom: #fff 1px solid;
+    margin-bottom: 2rem;
+}
+.from{
+    border-bottom: #fff 1px solid;
+    display: flex;
+    gap: 4rem;
+}
+.contentText{
+    margin-top: 2rem;
+    background: #fafafa;
+}
+.bottomWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3.4rem;
+}
+.link i{
+    color: #fff;
 }
 .pWrap{
     display: none;

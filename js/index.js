@@ -1,9 +1,6 @@
 const mail = document.querySelector(`.fa-envelope`);
 const contact = document.querySelector(`.contactWrap`);
-const closed = document.querySelector(`.fa-xmark`);
-const modal = document.querySelector(`.modal`);
-
-
+const modal = document.querySelectorAll(`.modal`);
 const user = document.querySelector(`.fa-user`);
 const profile = document.querySelector(`.pWrap`);
 
@@ -14,16 +11,18 @@ user.onclick = () => {
     profile.style.display = "block";
 };
 
-closed.onclick = () => {
-    modal.style.display = "none";
+const closed = document.querySelectorAll(`.fa-xmark`);
+closed.forEach(function (btn) {
+    btn.onclick = function () {
+        var modal = btn.closest(`.modal`)
+        modal.style.display = "none"
+    };
+});
+
+window.onclick = function(event){
+    if(event.target.className === "modal"){
+        event.target.style.display = "none";
+    }
 };
 
-// window.onclick = function(event){
-//     if(event.target == modal){
-//         modal.style.display = "none";
-//     }
-// }
 
-closed.addEventListener("click",function (){
-    profile.style.display = "none";
-})
