@@ -10,7 +10,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "A P-OTF SuiryuAtlas StdN";
-    padding: 0 2rem 0;
     color: #333;
     overflow: hidden;
 }
@@ -30,9 +29,12 @@ input:checked + .tab {
     background-color: #fff;  
 }
 .tabBox{
-    margin: 0 0 0 15%;
+    position: absolute;
+    left: 10%;
 }
-.tabBox input { display: none; }
+.tabBox input { 
+    display: none; 
+}
 
 .tabContent {
     display: none; 
@@ -40,11 +42,11 @@ input:checked + .tab {
 .tabFlex{
     background-image: url(..//img/bg/box.png);
     background-position: center top;
-    background-size: 100% 63%;
+    background-size: 100% 65%;
     display: flex;
     align-items: flex-start;
     height: 100vh;
-    width: 80%;
+    width: 90%;
 }
 
 #tabCheck1:checked ~ #tabContent1 { display: block; }

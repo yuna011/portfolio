@@ -11,6 +11,50 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+body{
+    animation: skew 8s infinite;
+}
+@keyframes skew {
+    0% {
+        transform: none;
+    }
+    33% {
+        transform: none;
+    }
+    33.3% {
+        transform: skewX(30deg);
+    }
+    33.6% {
+        transform: skewX(-30deg);
+    }
+    33.9% {
+        transform: none;
+    }
+    66% {
+        transform: none;
+    }
+    66.3% {
+        transform: skewX(5deg);
+    }
+    66.6% {
+        transform: skewX(-5deg);
+    }
+    66.9% {
+        transform: none;
+    }
+    77% {
+        transform: none;
+    }
+    77.3% {
+        transform: skewX(15deg);
+    }
+    77.6% {
+        transform: skewX(-15deg);
+    }  
+    77.9% {
+        transform: none;
+    }
+}
 a:hover{
     color: #fff;
     background: #fc4fffa3;
@@ -30,17 +74,16 @@ a:hover{
 .subWrap{
     display: flex;
     flex-direction: column;
-    padding: 4rem 0 0 2rem;
+    /* padding: 4rem 0 0 2rem; */
 }
 .sub{
     width: fit-content;
-    margin-bottom: 4rem;
-    padding: 1rem 6rem;
-    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-bottom: 6rem;
+    padding: 1rem 10rem; 
+    clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
     font-size: 2.6rem;
     color: #2e2e2e;
     text-decoration: none;
-    border: 3px solid #fff;
     background-color: #E1E1E1A6;
 }
 
