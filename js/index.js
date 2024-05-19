@@ -2,7 +2,7 @@ const mail = document.querySelector(`.fa-envelope`);
 const contact = document.querySelector(`.contactWrap`);
 const modal = document.querySelectorAll(`.modal`);
 const user = document.querySelector(`.fa-user`);
-const profile = document.querySelector(`.pWrap`);
+const profile = document.querySelector(`.profileWrapper`);
 
 mail.onclick = () => {
     contact.style.display = "block";

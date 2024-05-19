@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding:  0rem 4rem 0 4rem;
-    color: #60E2FF;
+    color: #4FF4FF;
     background-image: url(../img/maru.svg);
     background-position: 4rem 2rem;
 }
@@ -29,7 +29,9 @@
     color: #fff;
     font-size: 5rem;
 }
-
+.menuIcon i:hover{
+    color: #FB4FFF;
+}
 .modal{
     display: none;
     width: 100rem;
@@ -73,19 +75,32 @@
 .link i{
     color: #fff;
 }
-.pWrap{
-    display: none;
+.fa-paper-plane{
+    color: #fff;
 }
-
-.profileWrap{
+.profileWrapper{
     display: none;
-    height: 100vh;
-    padding: 16rem 4rem 0;
+    background-color: #000;
+    border-radius: 20px;
+}
+.profileWrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #4FF4FF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;    
+}
+.profileWrap{
+    border-radius: 20px;
+    margin-top: 11rem;
+    padding: 0 4rem 0;
     display: flex;
-    align-items: flex-start;
     color: #fff;
     font-family: "A P-OTF Shuei NijimiMin Std";
-    background-image: url(../img/card.png);
 }
 .profileWrap img{
     width: 30%;
@@ -112,12 +127,12 @@
 .app{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 .app img{
     width: 10%;
 }
 .app i{
     font-size: 4.2rem;
-    color: #60E2FF;
+    color: #4FF4FF;
 }
