@@ -1,3 +1,12 @@
+body{
+    background-image: url(../img/bg/work.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "A P-OTF SuiryuAtlas StdN";
+    color: #333;
+    overflow: hidden;
+}
 .workImg{
     width: 20%;
     border-radius: 10px;
