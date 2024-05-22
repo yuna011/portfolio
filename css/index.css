@@ -5,7 +5,7 @@ html{
 }
 body{
     padding: 0 2rem 0;
-    font-family: "A P-OTF SuiryuAtlas StdN";
+    font-family: "A P-OTF SuiryuAtlas StdN", "RocknRoll One", sans-serif;
     background-image: url(../img/bg/home.svg);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ a:hover{
 .serif{
     padding: 4rem 8rem 4rem 4rem;
     font-size: 2rem;
-    font-family: "A P-OTF Shuei NGo Kin StdN";
+    font-family: "A P-OTF Shuei NGo Kin StdN","Kosugi", sans-serif;
 } 
 
 .main{

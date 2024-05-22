@@ -50,6 +50,7 @@
 }
 .contactWrap{
     padding: 5rem 2rem 0 2rem;
+    border-radius: 20px;
     color: #fff;
     background-color: #FB4FFFCC;
 }
@@ -100,7 +101,7 @@
     padding: 0 4rem 0;
     display: flex;
     color: #fff;
-    font-family: "A P-OTF Shuei NijimiMin Std";
+    font-family: "A P-OTF Shuei NijimiMin Std","Kosugi", sans-serif;
 }
 .profileWrap img{
     width: 30%;

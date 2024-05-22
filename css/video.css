@@ -8,7 +8,7 @@ body{
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "A P-OTF SuiryuAtlas StdN";
+    font-family: "A P-OTF SuiryuAtlas StdN","RocknRoll One", sans-serif;
     padding: 0 2rem 0;
 }
 
@@ -28,6 +28,6 @@ body{
     height: 70%;
 }
 .videoInfo{
-    font-family: "A P-OTF Shuei NGo Kin StdN";
+    font-family: "A P-OTF Shuei NGo Kin StdN","Kosugi", sans-serif;
     list-style: none;
 }
