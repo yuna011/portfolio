@@ -25,4 +25,8 @@ window.onclick = function(event){
     }
 };
 
+const load = document.querySelector(".load");
 
+load.addEventListener(`ended`,function(){
+    load.remove();
+});
